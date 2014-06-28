@@ -1,0 +1,13 @@
+@import"../bower_components/bootstrap-sass-only/sass/bootstrap.scss";
+ $bg-img: url('/images/pattern.png');
+ body {
+    background: $bg-img;
+}
+input[type="text"] {
+    background: $bg-img;
+}
+
+#slider {
+    height: 300px;
+    width: 100%;
+}
